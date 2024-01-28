@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokemon_project</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        #types{
+            border: 2px solid rgb(255, 247, 0);
+            border-radius: 5px;
+            width: 100px;
+            height: 30px;
+            background-color: rgba(255, 55, 0, 0.496);
+            box-shadow: 2px 1px 2px 2px #ccc;
+            font-weight: bolder;
+            color: white;
+        }
+        .filterbutton{
+            border-radius: 5px;
+            width: 100px;
+            height: 30px;
+            box-shadow: 2px 1px 2px 2px #ccc;
+            color: orange;
+            font-weight: bolder;
+            background-color: rgba(255, 246, 127, 0.788);
+            width: 200px;
+            border: 3px solid orange;
+            cursor: pointer;
+        }
+        .reset{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 3px solid rgba(224, 69, 12, 0.882);
+            box-shadow: 2px 1px 2px 2px #ccc;
+            color: red;
+            font-size: 14px;
+            background-color: bisque;
+            cursor: pointer;
+        }
+        #text{
+            padding: 10px 10px;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+
+    </style>
+  </head>
+
+<body>
+    <header>
+
+        <h1 class="head">GeeksterMon</h1>
+        <div class="head-container">
+            <select name="types" id="types" placeholde="types">
+                <option value="types" id="selectoption">Types</option>
+            </select>
+            <button class="filterbutton">Filter by Types</button>
+            <button class="reset">Reset</button>
+        </div>
+
+        <div class="text">
+            <form action="">
+                <input type="text" placeholder="Enter Pokemon Name" id = "text">
+            </form>
+        </div>
+
+    </header>
+
+    <main>
+        <section>
+            
+            <div class="display-card">
+               
+
+                <!-- <div class="flip-card">
+                    <div class="flip-card-inner">
+
+                        <div class="flip-card-front"></div>
+                        <div class="flip-card-back"></div>
+        
+                    </div>
+                </div> -->
+
+            </div>
+
+
+
+
+            <!-- <div class="flip_cart"></div> -->
+
+            <!-- <div class="store-div"> 
+
+          <div class="flip_cart">
+
+            <div class="flip-cart-inner">
+
+                <div class="flip-cart-front"></div>
+                <div class="flip-cart-back"></div>
+
+            </div>
+          </div>
+
+            </div> -->
+           
+            
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html> 
